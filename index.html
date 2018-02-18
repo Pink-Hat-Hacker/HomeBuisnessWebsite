@@ -1,200 +1,143 @@
 <!DOCTYPE html>
 <html>
-<title>Zoë Valladares</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="main.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
-.w3-row-padding img {margin-bottom: 12px}
-/* Set the width of the sidebar to 120px */
-.w3-sidebar {width: 120px;background: #222;}
-/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-#main {margin-left: 120px}
-/* Remove margins from "page content" on small screens */
-@media only screen and (max-width: 600px) {#main {margin-left: 0}}
-</style>
+<head>
+	<title>Zoë Valladares</title>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link href="main.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<style>
+	body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+	.w3-row-padding img {margin-bottom: 12px}
+	/* Set the width of the sidebar to 120px */
+	.w3-sidebar {width: 120px;background: #222;}
+	/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+	#main {margin-left: 120px}
+	/* Remove margins from "page content" on small screens */
+	@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+	</style>
+</head>
 <body class="w3-black">
-
-<!-- Icon Bar (Sidebar - hidden on small screens) -->
-<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-  <!-- Avatar image in top left corner -->
-  <img src="me2.jpg" style="width:100%">
-  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
-    <i class="fa fa-home w3-xxlarge"></i>
-    <p>HOME</p>
-  </a>
-  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-user w3-xxlarge"></i>
-    <p>ABOUT</p>
-  </a>
-  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-eye w3-xxlarge"></i>
-    <p>PHOTOS</p>
-  </a>
-  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-envelope w3-xxlarge"></i>
-    <p>CONTACT</p>
-  </a>
-</nav>
-
-<!-- Navbar on small screens (Hidden on medium and large screens) -->
-<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
-    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
-    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
-  </div>
-</div>
-
-<!-- Page Content -->
-<div class="w3-padding-large" id="main">
-  <!-- Header/Home -->
-  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Zoë YoYo Valladares.</h1>
-    <p>Photographer, Web Designer & Coder.</p>
-    <img src="me2.jpg" alt="a picture of me" class="w3-image" width="1080" height="1108">
-  </header>
-
-  <!-- About Section -->
-  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-    <h2 class="w3-text-light-grey">Zoë YoYo Valladares</h2>
-    <hr style="width:200px" class="w3-opacity">
-    <p>Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
-      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    </p>
-    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
-    <p class="w3-wide">Photography</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
-    </div>
-    <p class="w3-wide">Web Design</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
-    </div>
-    <p class="w3-wide">Photoshop</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
-    </div><br>
-     <p class="w3-wide">After Effects</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:65%"></div>
-    </div><br>
-     <p class="w3-wide">Programming</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
-    </div><br>
-     <p class="w3-wide">Social Media</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:99%"></div>
-    </div>
-    <br>
-    <div>
-      <button class="w3-button w3-light-grey w3-padding-large w3-section">
-      <i class="fa fa-link"></i><a target="_blank" href="https://docs.google.com/a/wlapcs.org/document/d/1OkEGEN0XFRZz5l8eRBFFAnxBskWBbnkLNzABNMWezNs/edit?usp=sharing"> Open Resume</button>
-    </div>
-    </div>
-
-    <!-- Grid for pricing tables -->
-    <h3 class="w3-padding-16 w3-text-light-grey">My Price</h3>
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half w3-margin-bottom">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
-          <li class="w3-padding-16">Web Design</li>
-          <li class="w3-padding-16">Photography</li>
-          <li class="w3-padding-16">5GB Storage</li>
-          <li class="w3-padding-16">Mail Support</li>
-          <li class="w3-padding-16">
-            <h2>$ 10</h2>
-            <span class="w3-opacity">per month</span>
-          </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-          </li>
-        </ul>
-      </div>
-
-      <div class="w3-half">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
-          <li class="w3-padding-16">Web Design</li>
-          <li class="w3-padding-16">Photography</li>
-          <li class="w3-padding-16">50GB Storage</li>
-          <li class="w3-padding-16">Endless Support</li>
-          <li class="w3-padding-16">
-            <h2>$ 25</h2>
-            <span class="w3-opacity">per month</span>
-          </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-          </li>
-        </ul>
-      </div>
-    <!-- End Grid/Pricing tables -->
-    </div>
-  </div>
-  
-  <!-- Portfolio Section -->
-  <div class="w3-padding-64 w3-content" id="photos">
-    <h2 class="w3-text-light-grey">My Photos</h2>
-    <hr style="width:200px" class="w3-opacity">
-    <div>
-        <button class="w3-button w3-light-grey w3-padding-large w3-section">
-       <i class="fa fa-link"></i><a target="_blank" href="https://pink-hat-hacker.github.io/PhotographyWebsiteConcept/"> Open Photography Portfolio</button>
-    </div>
-    <div>
-        <button class="w3-button w3-light-grey w3-padding-large w3-section">
-       <i class="fa fa-link"></i><a target="_blank" href="#"> Buy my Photos</button>
-    </div>
-  <!-- End Portfolio Section -->
-  </div>
-
-  <!-- Contact Section -->
-  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
-    <h2 class="w3-text-light-grey">Contact Me</h2>
-    <hr style="width:200px" class="w3-opacity">
-
-    <div class="w3-section">
-      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> District of Columbia, US</p>
-      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: (202)-286-1276</p>
-      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i><a target="_blank" href="mailto:zoeyvlara@gmail.com">Email: zoeyvlara@gmail.com</a> </p>
-    </div><br>
-    <p>Lets get in touch. Send me a message:</p>
-
-    <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
-      <p>
-        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
-        </button>
-      </p>
-    </form>
-  <!-- End Contact Section -->
-  </div>
-  
-    <!-- Footer -->
-  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
-    <p class="w3-medium">Powered by Zoë YoYo Valladares</p>
-  <!-- End footer -->
-  </footer>
-
-<!-- END PAGE CONTENT -->
-</div>
-
+	<!-- Icon Bar (Sidebar - hidden on small screens) -->
+	<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+		<!-- Avatar image in top left corner -->
+		<img src="me2.jpg" style="width:100%"> <a class="w3-bar-item w3-button w3-padding-large w3-black" href="#"><i class="fa fa-home w3-xxlarge"></i>
+		<p>HOME</p></a> <a class="w3-bar-item w3-button w3-padding-large w3-hover-black" href="#about"><i class="fa fa-user w3-xxlarge"></i>
+		<p>ABOUT</p></a> <a class="w3-bar-item w3-button w3-padding-large w3-hover-black" href="#photos"><i class="fa fa-eye w3-xxlarge"></i>
+		<p>PHOTOS</p></a> <a class="w3-bar-item w3-button w3-padding-large w3-hover-black" href="#contact"><i class="fa fa-envelope w3-xxlarge"></i>
+		<p>CONTACT</p></a>
+	</nav><!-- Navbar on small screens (Hidden on medium and large screens) -->
+	<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+		<div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+			<a class="w3-bar-item w3-button" href="#" style="width:25% !important">HOME</a> <a class="w3-bar-item w3-button" href="#about" style="width:25% !important">ABOUT</a> <a class="w3-bar-item w3-button" href="#photos" style="width:25% !important">PHOTOS</a> <a class="w3-bar-item w3-button" href="#contact" style="width:25% !important">CONTACT</a>
+		</div>
+	</div><!-- Page Content -->
+	<div class="w3-padding-large" id="main">
+		<!-- Header/Home -->
+		<header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+			<h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Zoë YoYo Valladares.</h1>
+			<p>Photographer, Web Designer & Coder.</p><img alt="a picture of me" class="w3-image" height="1108" src="me2.jpg" width="1080">
+		</header><!-- About Section -->
+		<div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+			<h2 class="w3-text-light-grey">Zoë YoYo Valladares</h2>
+			<hr class="w3-opacity" style="width:200px">
+			<p>I am a modern magician .... Just kidding -- I use technology and photography and transform projects into appealing pieces of work.
+			I believe in capturing a natural moment in time with photography, using code to entertain users, and creating gorgeous efficient, websites is important for the modern world. 
+			My portfolio shows a lineup of my most recent tricks, which range from photography and cool little programming projects.
+			I’m always ready for new design opportunities.</p>
+			<h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+			<p class="w3-wide">Photography</p>
+			<div class="w3-white">
+				<div class="w3-dark-grey" style="height:28px;width:95%"></div>
+			</div>
+			<p class="w3-wide">Web Design</p>
+			<div class="w3-white">
+				<div class="w3-dark-grey" style="height:28px;width:85%"></div>
+			</div>
+			<p class="w3-wide">Photoshop</p>
+			<div class="w3-white">
+				<div class="w3-dark-grey" style="height:28px;width:80%"></div>
+			</div><br>
+			<p class="w3-wide">After Effects</p>
+			<div class="w3-white">
+				<div class="w3-dark-grey" style="height:28px;width:65%"></div>
+			</div><br>
+			<p class="w3-wide">Programming</p>
+			<div class="w3-white">
+				<div class="w3-dark-grey" style="height:28px;width:80%"></div>
+			</div><br>
+			<p class="w3-wide">Social Media</p>
+			<div class="w3-white">
+				<div class="w3-dark-grey" style="height:28px;width:99%"></div>
+			</div><br>
+			<div>
+				<button class="w3-button w3-light-grey w3-padding-large w3-section"><i class="fa fa-link"></i> <a href="https://docs.google.com/a/wlapcs.org/document/d/1OkEGEN0XFRZz5l8eRBFFAnxBskWBbnkLNzABNMWezNs/edit?usp=sharing" target="_blank">Open Resume</a></button>
+			</div>
+		</div><!-- Grid for pricing tables -->
+		<h3 class="w3-padding-16 w3-text-light-grey">My Price</h3>
+		<div class="w3-row-padding" style="margin:0 -16px">
+			<div class="w3-half w3-margin-bottom">
+				<ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+					<li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
+					<li class="w3-padding-16">Web Design</li>
+					<li class="w3-padding-16">Photography</li>
+					<li class="w3-padding-16">5GB Storage</li>
+					<li class="w3-padding-16">Mail Support</li>
+					<li class="w3-padding-16">
+						<h2>$ 10</h2><span class="w3-opacity">per month</span>
+					</li>
+					<li class="w3-light-grey w3-padding-24"><button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button></li>
+				</ul>
+			</div>
+			<div class="w3-half">
+				<ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+					<li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
+					<li class="w3-padding-16">Web Design</li>
+					<li class="w3-padding-16">Photography</li>
+					<li class="w3-padding-16">50GB Storage</li>
+					<li class="w3-padding-16">Endless Support</li>
+					<li class="w3-padding-16">
+						<h2>$ 25</h2><span class="w3-opacity">per month</span>
+					</li>
+					<li class="w3-light-grey w3-padding-24"><button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button></li>
+				</ul>
+			</div><!-- End Grid/Pricing tables -->
+		</div>
+	</div><!-- Portfolio Section -->
+	<div class="w3-padding-64 w3-content" id="photos">
+		<h2 class="w3-text-light-grey">My Photos</h2>
+		<hr class="w3-opacity" style="width:200px">
+		<div>
+			<button class="w3-button w3-light-grey w3-padding-large w3-section"><i class="fa fa-link"></i> <a href="https://pink-hat-hacker.github.io/PhotographyWebsiteConcept/" target="_blank">Open Photography Portfolio</a></button>
+		</div>
+		<div>
+			<button class="w3-button w3-light-grey w3-padding-large w3-section"><i class="fa fa-link"></i> <a href="#" target="_blank">Buy my Photos</a></button>
+		</div><!-- End Portfolio Section -->
+	</div><!-- Contact Section -->
+	<div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+		<h2 class="w3-text-light-grey">Contact Me</h2>
+		<hr class="w3-opacity" style="width:200px">
+		<div class="w3-section">
+			<p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> District of Columbia, US</p>
+			<p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: (202)-286-1276</p>
+			<p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"></i><a href="mailto:zoeyvlara@gmail.com" target="_blank">Email: zoeyvlara@gmail.com</a></p>
+		</div><br>
+		<p>Lets get in touch. Send me a message:</p>
+		<form action="/action_page.php" target="_blank">
+			<p><input class="w3-input w3-padding-16" name="Name" placeholder="Name" required="" type="text"></p>
+			<p><input class="w3-input w3-padding-16" name="Email" placeholder="Email" required="" type="text"></p>
+			<p><input class="w3-input w3-padding-16" name="Subject" placeholder="Subject" required="" type="text"></p>
+			<p><input class="w3-input w3-padding-16" name="Message" placeholder="Message" required="" type="text"></p>
+			<p><button class="w3-button w3-light-grey w3-padding-large" type="submit"><i class="fa fa-paper-plane"></i> SEND MESSAGE</button></p>
+		</form><!-- End Contact Section -->
+	</div><!-- Footer -->
+	<footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+		<a href="https://instagram.com/illchange_this_later/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+		<a href="https://twitter.com/OpenHotsauce"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+		<a href="https://www.linkedin.com/in/zoe-v-b78958129/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+		<a href="https://github.com/Pink-Hat-Hacker"> <i class="fa fa-github w3-hover-opacity"></i></a>
+		<p class="w3-medium">Powered by Zoë YoYo Valladares</p><!-- End footer -->
+	</footer><!-- END PAGE CONTENT -->
 </body>
 </html>
-
